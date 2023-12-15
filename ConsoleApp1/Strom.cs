@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Strom : Organizmus
+    internal class Strom : IOrganizmus
     {
         public Strom() { }
 
@@ -17,6 +17,10 @@ namespace ConsoleApp1
 
         {
             get { return ((1.0 / 3.0) * Math.PI * (polomer * polomer) * vyyyyyska); }
+        }
+        public virtual void Rastie()
+        {
+
         }
 
     }

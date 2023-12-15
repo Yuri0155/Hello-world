@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Organizmus
+    interface IOrganizmus
     {
-        public Organizmus() { }
-
-        public void Rastie() {
-        
-        }
-
+        public void Rastie();
     }
 }
