@@ -10,13 +10,13 @@ namespace ConsoleApp1
     {
         public Strom() { }
 
-        public double vyyyyyska;
+        public double vyska;
         public double polomer;
 
         public virtual double objem
 
         {
-            get { return ((1.0 / 3.0) * Math.PI * (polomer * polomer) * vyyyyyska); }
+            get { return ((1.0 / 3.0) * Math.PI * (polomer * polomer) * vyska); }
         }
         public virtual void Rastie()
         {

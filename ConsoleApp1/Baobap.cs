@@ -12,13 +12,13 @@ namespace ConsoleApp1
         public Baobap(double a, double b)
         {
             polomer = a;
-            vyyyyyska = b;
+            vyska = b;
         }
 
         public override double objem
 
         {
-            get { return (Math.PI * (polomer * polomer) * vyyyyyska); }
+            get { return (Math.PI * (polomer * polomer) * vyska); }
         }
     }
 }

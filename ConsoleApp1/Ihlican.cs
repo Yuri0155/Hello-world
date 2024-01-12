@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         public Ihlican(double a, double b ) { 
         polomer= a;
-        vyyyyyska = b;
+        vyska = b;
         }
     }
 }
