@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Baobap.cs" />
     <Compile Include="Bambus.cs" />
+    <Compile Include="Vetva.cs" />
     <Compile Include="IOrganizmus.cs" />
     <Compile Include="Listnaty.cs" />
     <Compile Include="Ihlican.cs" />
