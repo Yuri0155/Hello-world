@@ -8,6 +8,6 @@ namespace ConsoleApp1
 {
     interface IOrganizmus
     {
-        public void Rastie();
+  //      public void Rastie();
     }
 }

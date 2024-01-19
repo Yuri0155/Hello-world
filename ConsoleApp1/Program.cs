@@ -13,6 +13,12 @@ class Program
         Listnaty strom2 = new Listnaty(5,7);
         Console.WriteLine("Objem Listnateho: " + strom1.objem);
 
+        Console.WriteLine("O dva roky neskor......");
+        strom.Rastie(2);
+        Console.WriteLine("Polomer stromu: " + strom.polomer + " vyska stromu: " + strom.vyska);
+
+
+
         Console.ReadKey();
     }
 }
