@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Listnaty : Ihlican
+    internal abstract class Listnaty : Ihlican
     {
         public Listnaty(double a, double b) : base(a, b) { }
     }

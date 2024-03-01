@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Ihlican : Strom
+    internal abstract class Ihlican : Strom
     {
         public Ihlican(double a, double b ) { 
         polomer= a;
